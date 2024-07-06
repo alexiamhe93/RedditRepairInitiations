@@ -8,21 +8,19 @@ The files contained within are designed for easy replication of the studies.
 
 S1 = Codebook for scoring Other-initiated repairs in Reddit dialogues.
 
-S2 = Inter-rater reliability statistics and few-shot classifier validation.
+S2 = All code for replicating results in analysis and validating the BERT classifier
 
-S3 = All code for replicating results in analysis.
+data.zip = All data for replicating the analysis.
+
+A BERT model is also available to download:
+https://www.dropbox.com/scl/fi/6gl42sqpuwyeujxerg0kz/initiation_BERT_model_080.zip?rlkey=kz5mdjuevmco49gzaiwkdjlb9&st=xtstjq2v&dl=1
+
+S2 contains the code for running the model and examining its predictions. 
 
 The data files are as follows:
 
-IRR.csv = Data for calculating inter-rater reliability (S2).
+turn.csv = Data for Analysis 1: mixed effects model.
 
-prompt.csv = Data for calculating predictive accuracy statistics (S2).
+surv.csv = Data for Analysis 2: survival analysis.
 
-turn.csv = Data for Analysis 1: mixed effects model (S3).
-
-surv.csv = Data for Analysis 2: survival analysis (S3).
-
-
-All of these data files have been included in a compressed format for easy access when using the notebooks:
-
-data.zip
+desc.csv = Data for descriptive statistics and BERT validation. 
