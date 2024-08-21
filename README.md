@@ -16,11 +16,3 @@ A BERT model is also available to download:
 https://www.dropbox.com/scl/fi/6gl42sqpuwyeujxerg0kz/initiation_BERT_model_080.zip?rlkey=kz5mdjuevmco49gzaiwkdjlb9&st=xtstjq2v&dl=1
 
 S2 contains the code for running the model and examining its predictions. 
-
-The data files are as follows:
-
-turn.csv = Data for Analysis 1: mixed effects model.
-
-surv.csv = Data for Analysis 2: survival analysis.
-
-desc.csv = Data for descriptive statistics and BERT validation. 
